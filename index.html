@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+<title>Aelxander Yang</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-sherif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Alexander Yang</h1>
+  <p>***</p>
+</div>
+
+<div class="navbar">
+  <a href="#">BLOG POSTS</a>
+  <a href="#">THE BOOKS</a>
+  <a href="#">BIO</a>
+  <a href="#" class="right">SMALL TALK</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p></p>
+    <h3>반갑습니다.</h3>
+    <p>양승주의 홈페이지입니다.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+</div>
+<div class="main">
+  <h2>바보처럼 살기</h2>
+  <h5>2021년 9월 22일</h5>
+  <div class="fakeimg" style="height:200px;">Image</div>
+  <p>단편소설 <바보 이반>을 읽고</p>
+  <p>어려운 상황에 처했을 때 우리는 어떻게 행동해야 할까? 힘이 들고 시간이 걸려도 목표를 달성하기 위해 노력해야 할 것이다. 잠을 못 잔다고 불평을 할 필요가 없고, 다른 사람들이 무시를 해도 괘념치 말아야 한다.</p>
+  <br>
+  <h2>추모</h2>
+  <h5>2021년 9월 22일</h5>
+  <p>장편소설 <연년세세>를 읽고</p>
+  <p>묘소로 가는 한세진과 이순일이 첫 장면에 등장한다.</p>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
